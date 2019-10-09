@@ -1,5 +1,82 @@
 html {
   background-color: #c9b5ab;
-  font-family: Georgia, serif;
+  font-family: "PT Serif", serif;
   line-height: 1.5;
+
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #3f1622;
+  font-size: 1.5rem;
+
+}
+nav ol {
+  list-style-type: none;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #8f2440;
+}
+
+figure + p {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+blockquote {
+  font-family: "PT Serif", serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h2 {
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+dl > dt {
+  color: #222;
+  font-family: "PT Serif", serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.footer {
+  text-decoration:none;
+  font-style: normal;
+  font-size: 0.8rem;
+}
+
+ul li {
+  list-style-type: circle;
+  font-size: 0.8rem;
+}
+
+.indent {
+  font-size: 0.8rem;
+  font-style: italic;
+  white-space: pre;
+}
+.chris {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+a:hover {
+  color: #3f1622;
 }
