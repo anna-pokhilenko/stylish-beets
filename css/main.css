@@ -2,7 +2,6 @@ html {
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
   line-height: 1.5;
-
 }
 
 img {
@@ -15,8 +14,8 @@ h1 {
   font-style: normal;
   color: #3f1622;
   font-size: 1.5rem;
-
 }
+
 nav ol {
   list-style-type: none;
   font-family: "PT Sans", sans-serif;
@@ -27,18 +26,23 @@ nav ol {
 
 a {
   text-decoration: none;
+  font-style: normal;
   color: #8f2440;
 }
 
 figure + p {
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
 }
 
 blockquote {
   font-family: "PT Serif", serif;
-  font-size: 1.5rem;
+  font-size: 1.45rem;
   font-style: italic;
+  font-weight: normal;
+}
+
+blockquote > strong {
   font-weight: normal;
 }
 
@@ -57,26 +61,37 @@ dl > dt {
 }
 
 .footer {
-  text-decoration:none;
   font-style: normal;
-  font-size: 0.8rem;
+  font-size: .9rem;
 }
 
 ul li {
   list-style-type: circle;
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
-.indent {
-  font-size: 0.8rem;
-  font-style: italic;
-  white-space: pre;
-}
 .chris {
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-style: italic;
+  display: block;
+  padding-top: 2em;
 }
 
 a:hover {
   color: #3f1622;
+  text-decoration: none;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  font-size: .95em;
+}
+
+.ol > li {
+  list-style-type: lower-greek;
+}
+
+h2 + p {
+  font-style: italic;
 }
